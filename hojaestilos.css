@@ -1,0 +1,115 @@
+
+
+/* Estilos para tabla */
+table {
+  border: 4px solid #fa0303;
+  border-collapse: collapse;
+  background-color: #1e1d1d;
+  text-decoration: none;
+  font: size 12px;
+
+}
+
+td, th {
+  border: 2px solid #ff0000;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+/* Estilos para texto */
+p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+dl {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+dt {
+  color: #ff0000; 
+  font-size: 16px;
+
+}
+.textorojo {color: #ff0000;}
+.textomorado {color: #e30ae3;}
+.textocentrado {text-align: center;}
+
+ol {
+  color: #ff0000; 
+  font-size: 16px;
+}
+
+ul {
+  color: #ff0000; 
+  font-size: 16px;
+}
+
+h1 {
+  color: #ff0000;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+h2, h3 {
+  color: #ff0101;
+  text-align: center;
+}
+
+/* Estilos para links */
+a {
+  color: #1E90FF;
+  text-decoration:none;
+  border-bottom: 2px solid #1E90FF;
+}
+
+a:hover {
+  background-color: #1E90FF;
+  color: #fff;
+}
+
+/* Estilos para formulario */
+form {
+  border: 4px solid #ff0000;
+  background-color: hsl(0, 0%, 0%);
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+  border: 1px solid #ff0000;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos para distribución de la página */
+nav {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+
+/* Estilos para imagen de fondo */
+body {
+  background-image:none;
+  background-color: hsl(0, 0%, 0%);
+}
